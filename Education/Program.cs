@@ -46,7 +46,7 @@ namespace Education
 			am.Class = dotnetbc4;
 
 			dotnetbc4.Students.Add(foster); //this is adding Foster to the list
-			dotnetbc4.Students.Add(jj);
+			dotnetbc4.Students.Add(jj); 
 			 
 
 		}
