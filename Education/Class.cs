@@ -15,5 +15,6 @@ namespace Education
 		public Instructor Instructor { get; set; } //The first Instructor the type!
 		public List<Student> Students = new List<Student>();  //This is a list - unlike an array, we don't have set a fixed amount of data sets
 
+
 	}
 }
