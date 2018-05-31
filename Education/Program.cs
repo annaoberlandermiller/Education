@@ -38,6 +38,13 @@ namespace Education
 			jj.FirstJob = DateTime.MinValue;
 			jj.Class = dotnetbc4;
 
+			Student am = new Student();
+			am.Name = "Anna";
+			am.Absences = 0;
+			am.ContactInfo = "Email Anna";
+			am.FirstJob = DateTime.MinValue;
+			am.Class = dotnetbc4;
+
 			dotnetbc4.Students.Add(foster); //this is adding Foster to the list
 			dotnetbc4.Students.Add(jj);
 
